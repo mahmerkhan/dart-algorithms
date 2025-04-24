@@ -19,3 +19,6 @@ int factorial(int num) {
     return num * factorial(num - 1);
   }
 }
+
+// One Line factorial program
+// int factorial(int num) => num <= 1 ? 1 : num * factorial(num - 1);
